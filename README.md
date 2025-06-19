@@ -1,73 +1,143 @@
-# Welcome to your Lovable project
+# Green Quest: Island Rescue 🌊
 
-## Project info
+A modern, interactive web application focused on environmental awareness and cleanup missions.
 
-**URL**: https://lovable.dev/projects/16e4c312-df2b-4aff-943b-17e8d1e8fb37
+**Live Demo**: [https://frontend-batttle.vercel.app/](https://frontend-batttle.vercel.app/)
 
-## How can I edit this code?
+## 🌟 Unique Features
 
-There are several ways of editing your application.
+- **Interactive Pollution Hotspots**: Real-time cleanup operations with dynamic stat updates
+- **Animated Asset Showcase**: Custom-built media gallery with hover effects and modal views
+- **Dark/Light Theme**: Fully responsive theme switching with persistent user preferences
+- **Parallax Effects**: Smooth scrolling animations for enhanced user experience
+- **Interactive Tools Carousel**: Dynamic cleanup tool selection interface
+- **Real-time Statistics**: Live updating cleanup metrics and achievements
 
-**Use Lovable**
+## 🛠️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/16e4c312-df2b-4aff-943b-17e8d1e8fb37) and start prompting.
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **UI Components**: shadcn/ui + Radix UI
+- **Styling**: Tailwind CSS
+- **Animations**: Custom CSS animations and transitions
+- **State Management**: React Hooks + Context
+- **Routing**: React Router v6
+- **Form Handling**: React Hook Form + Zod validation
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Quick Start
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (v16 or higher)
+- npm or bun package manager
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+```bash
+# Clone the repository
+git clone <https://github.com/vigneshrv10/frontend_batttle>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Navigate to project directory
+cd frontend_battle
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies (using npm)
+npm install
+# OR using bun
+bun install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+# OR
+bun dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📁 Project Structure
 
-**Use GitHub Codespaces**
+```
+frontend_battle/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/         # Route components
+│   ├── hooks/         # Custom React hooks
+│   ├── lib/           # Utility functions
+│   └── Assets/        # Media assets and resources
+├── public/            # Static files
+└── ...config files
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎨 Features in Detail
 
-## What technologies are used for this project?
+### Asset Showcase
+- Interactive media gallery
+- Auto-playing video previews on hover
+- Modal view for detailed inspection
+- Responsive grid layout
+- Categorized media display
 
-This project is built with:
+### Environmental Dashboard
+- Real-time cleanup statistics
+- Interactive pollution hotspots
+- Dynamic tool selection
+- Progress tracking
+- Achievement system
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### User Experience
+- Smooth animations
+- Responsive design
+- Dark/Light theme
+- Accessible components
+- Performance optimized
 
-## How can I deploy this project?
+## 🔧 Development
 
-Simply open [Lovable](https://lovable.dev/projects/16e4c312-df2b-4aff-943b-17e8d1e8fb37) and click on Share -> Publish.
+```bash
+# Run development server
+npm run dev
 
-## Can I connect a custom domain to my Lovable project?
+# Build for production
+npm run build
 
-Yes, you can!
+# Preview production build
+npm run preview
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# Lint project
+npm run lint
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📦 Deployment
+
+The project is deployed on Vercel. For deployment:
+
+1. Push your changes to GitHub
+2. Connect your repository to Vercel
+3. Vercel will automatically build and deploy your changes
+
+Or deploy manually:
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy to Vercel
+vercel
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+## 🙏 Acknowledgments
+
+- shadcn/ui for the beautiful component library
+- Radix UI for accessible primitives
+- Vercel for hosting
+
